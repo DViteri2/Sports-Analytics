@@ -1,16 +1,14 @@
 # Sports Analytics
 
-This repository contains the code and data for a sports analytics project focused on football. The project includes data preprocessing, model training, and prediction scripts.
+This repository contains the code and data for a football sports analytics project.
 
 ## Project Structure
 
 - `Sports_Analytics_Football.py`: Main script for data processing, model training, and prediction.
-- `Football_Dataset.csv`: The dataset used for training and testing the models.
-- `Predictions.csv`: Output file containing the predictions for the missing values in the dataset.
-- `preprocessor.pkl`: Preprocessor object used for data transformation.
-- `gain_prediction_model.pkl`: Trained model for predicting the GAIN values.
-- `stacking_ensemble_model.pkl`: Trained ensemble model for predicting the GAIN values.
-- `catboost_info/`: Directory containing training logs and metrics for the CatBoost model.
+- `Football_Dataset.csv`: Dataset used for training and testing.
+- `preprocessor.pkl`: Preprocessor for data transformation.
+- `gain_prediction_model.pkl`: Trained model for predicting GAIN values.
+- `stacking_ensemble_model.pkl`: Trained ensemble model for prediction.
 
 ## Installation
 
@@ -18,3 +16,21 @@ This repository contains the code and data for a sports analytics project focuse
    ```sh
    git clone https://github.com/DViteri2/Sports-Analytics.git
    cd Sports-Analytics
+   ```
+
+2. **Install Dependencies**:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. **Run the Main Script**:
+   ```sh
+   python Sports_Analytics_Football.py
+   ```
+
+## Data
+
+- `Football_Dataset.csv`: Contains football-related features and the target variable `GAIN`.
+
