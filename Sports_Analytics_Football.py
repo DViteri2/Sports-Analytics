@@ -1,7 +1,9 @@
 # %%
+import os
 import joblib
 import pandas as pd
 import numpy as np
+import warnings
 from sklearn.utils import resample
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
@@ -14,9 +16,12 @@ from xgboost import XGBRegressor
 from catboost import CatBoostRegressor
 from sklearn.ensemble import VotingRegressor
 
-# %%
-# Set the directory where your files are located
-directory = "C:/Users/diego/OneDrive - University of Florida/Desktop/UF/Washington/CommandersQuantTestData.csv"
+# Suppress specific warnings
+warnings.filterwarnings("ignore", category=UserWarning, message="The least populated class in y has only 1 members")
+
+# Use environment variable or relative path for the dataset directory
+directory = os.getenv('DATASET_PATH', 'Football_Dataset.csv')
+
 # Load data
 data = pd.read_csv(directory)
 # Replace 'MISSING' with np.nan in the 'GAIN' column
@@ -364,12 +369,5 @@ print("First few predictions for missing GAIN values:")
 print(ensemble_output.head())
 
 
-# %%
 # Save the predictions to a CSV file
-ensemble_output.to_csv('ViteriDiego_CodingPredictions.csv', index=False)
-
-
-# %%
-
-
-
+ensemble_output.to_csv('Predictions.csv', index=False)
