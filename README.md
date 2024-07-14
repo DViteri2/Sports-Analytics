@@ -22,6 +22,10 @@ The workflow involved several key steps:
 - `gain_prediction_model.pkl`: Trained model for predicting GAIN values.
 - `stacking_ensemble_model.pkl`: Trained ensemble model for prediction.
 
+## Disclaimer
+
+**Note**: The dataset used in this project is not included in this repository due to privacy and licensing constraints. Please use your own dataset to replicate the results.
+
 ## Installation
 
 1. **Clone the Repository**:
