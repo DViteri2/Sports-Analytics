@@ -3,6 +3,11 @@
 
 This repository contains the code and data for a football sports analytics project.
 
+## Overview
+
+In this project, I performed data preprocessing, model training, and prediction tasks using various machine learning techniques. The main objectives were to clean and prepare the data, train multiple regression models, perform hyperparameter tuning, and make predictions on the target variable, GAIN. The project includes scripts for processing the dataset, training different models, and saving the predictions.
+
+
 ## Project Structure
 
 - `Sports_Analytics_Football.py`: Main script for data processing, model training, and prediction.
