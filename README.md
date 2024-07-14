@@ -5,7 +5,9 @@ This repository contains the code and data for a football sports analytics proje
 
 ## Overview
 
-In this project, I aimed to analyze and predict key performance metrics in football games using machine learning techniques. The primary focus was on predicting the GAIN values, which represent the yards gained in a play. The workflow involved several key steps:
+In this project, I aimed to analyze and predict key performance metrics in football games using machine learning techniques. The primary focus was on predicting the GAIN values, which represent the yards gained in a play. Accurate prediction of GAIN is crucial for strategic planning and decision-making in football, as it helps teams understand and anticipate the outcomes of different plays.
+
+The workflow involved several key steps:
 
 1. **Data Preprocessing**: Cleaning and preparing the raw dataset by handling missing values, encoding categorical variables, and scaling numerical features.
 2. **Model Training**: Training multiple regression models, including RandomForest, XGBoost, CatBoost, and GradientBoosting, to predict the GAIN values.
