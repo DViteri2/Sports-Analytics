@@ -5,8 +5,13 @@ This repository contains the code and data for a football sports analytics proje
 
 ## Overview
 
-In this project, I performed data preprocessing, model training, and prediction tasks using various machine learning techniques. The main objectives were to clean and prepare the data, train multiple regression models, perform hyperparameter tuning, and make predictions on the target variable, GAIN. The project includes scripts for processing the dataset, training different models, and saving the predictions.
+In this project, I aimed to analyze and predict key performance metrics in football games using machine learning techniques. The primary focus was on predicting the GAIN values, which represent the yards gained in a play. The workflow involved several key steps:
 
+1. **Data Preprocessing**: Cleaning and preparing the raw dataset by handling missing values, encoding categorical variables, and scaling numerical features.
+2. **Model Training**: Training multiple regression models, including RandomForest, XGBoost, CatBoost, and GradientBoosting, to predict the GAIN values.
+3. **Hyperparameter Tuning**: Performing hyperparameter tuning to optimize the models for better performance.
+4. **Prediction**: Using the trained models to predict missing GAIN values in the dataset and validating the model performance.
+5. **Ensemble Modeling**: Combining the predictions of multiple models using a stacking ensemble to improve the accuracy of the predictions.
 
 ## Project Structure
 
