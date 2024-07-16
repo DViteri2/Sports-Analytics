@@ -1,4 +1,4 @@
-# Sports Analytics at a Glance
+# Sports Analytics
 
 This repository contains multiple projects focused on applying machine learning techniques to analyze and predict outcomes in various sports.
 
