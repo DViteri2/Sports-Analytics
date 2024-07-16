@@ -1,5 +1,5 @@
 
-# Sports Analytics
+# Football Analytics
 
 This repository contains the code and data for a football sports analytics project.
 
