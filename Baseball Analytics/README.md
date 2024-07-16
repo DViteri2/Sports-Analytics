@@ -18,7 +18,7 @@ In this project, I aimed to predict whether a batter will swing at a given pitch
     - Dropped rows with missing values from the combined dataset.
 
 2. **Feature Engineering**:
-    - Selected numeric features (release_speed, balls, strikes, pfx_x, pfx_z, plate_x, plate_z, sz_top, sz_bot) and one-hot encoded pitch_type features.
+    - Selected numeric features and one-hot encoded pitch_type features.
     - Combined numeric and one-hot encoded features to create the final feature matrix (X_train).
     - Set the target variable (y_train) as the 'swing' column.
 
