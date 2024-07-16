@@ -1,6 +1,6 @@
 # Sports Analytics at a Glance
 
-This repository contains multiple projects focused on applying machine learning techniques to analyze and predict outcomes in various sports. 
+This repository contains multiple projects focused on applying machine learning techniques to analyze and predict outcomes in various sports.
 
 ## Overview
 
@@ -12,7 +12,7 @@ This repository contains multiple projects focused on applying machine learning 
 ### Football Gain Prediction
 - **Objective**: Predict the GAIN values (yards gained) in football plays.
 - **Approach**: Use regression models to analyze football game data and predict yards gained.
-- **Techniques**: Data preprocessing, feature engineering, model training (Random Forest, XGBoost, etc.), evaluation using accuracy and ROC AUC.
+- **Techniques**: Data preprocessing, handling missing values, outlier detection, imputation, feature engineering, model training (Random Forest, XGBoost, CatBoost, Gradient Boosting), hyperparameter tuning, and evaluation using root mean squared error (RMSE).
 
 ## Key Steps
 1. **Data Preprocessing**: Load and clean datasets, handle missing values, encode categorical variables.
@@ -23,9 +23,5 @@ This repository contains multiple projects focused on applying machine learning 
 ## Disclaimer
 **Note**: Datasets used in these projects are not included due to privacy and licensing constraints. Please use your own datasets to replicate the results.
 
-## License
-Licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Conclusion
 These projects demonstrate the application of machine learning in sports analytics, providing insights into player behavior, game outcomes, and strategic decision-making.
-
