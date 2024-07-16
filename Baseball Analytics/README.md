@@ -42,13 +42,6 @@ In this project, I aimed to predict whether a batter will swing at a given pitch
 
 - `baseball_swing_prediction.py`: Main script for data processing, model training, and prediction.
 
-## Installation
-
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/DViteri2/Sports-Analytics.git
-   cd Sports-Analytics
-
 ## Disclaimer
 
 **Note**: The dataset used in this project is not included in this repository due to privacy and licensing constraints. Please use your own dataset to replicate the results.
